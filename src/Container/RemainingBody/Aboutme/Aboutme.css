@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+.Profile{
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+.p1{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    width: 50%;
+}
+.p1 h1{
+    text-align: center;
+}
+.p2 img{
+    width: 70%;
+    height: 70%;
+    margin : 5% auto 5% auto;
+    /* margin-left: 50%; */
+}
+.Profile h4{
+    margin-left: 2%;
+    margin-top: 1%;
+    color: rgb(20, 20, 48);
+    font-weight: bold;
+    font-family: 'Grape Nuts', cursive;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.Aboutme-container{
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 10%; */
+}
+.Aboutme-heading{
+    text-align: center;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.Aboutme-heading h1{
+    font-size: 50px;
+    color: rgb(27, 28, 58);
+}
+.Aboutme-heading p{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(27,28,58);
+}
+.Aboutme-detail {
+    height: 28rem;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    margin-left: 10%;
+}
+.Education-border{
+    background-color: rgb(19, 27, 54);
+    margin-left: 5%;
+
+}
+.Education-border li{
+    list-style-type: none;
+}
+.Education-border i {
+    color: white;
+    height: 25px;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 20%;
+    padding-bottom: 45px;
+}
+
+.Education-heading{
+    display: flex;
+    flex-direction: column;
+}
+.Education-heading li{
+    list-style-type: none;
+    padding: 20px;
+    font-size: 25px;
+    margin-left: 10px;
+
+}
+.Education-heading li button{
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px rgb(23, 23, 49);
+   
+}
+.Education-line{
+    width: 5px;
+    border-radius: 10px;
+    background-color: rgb(32, 42, 68);
+}
+.Education-information{
+    overflow: scroll;
+
+}
+
+/* Education Information */
+
+
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 100%;
+}
+/* .proglan, .webd , .database , .tools{
+    width: 50%;
+} */
+.skills h1{
+    text-align: center;
+}
+
+.skills div{
+    margin:3%
+}
+.skills div h6{
+    font-size: 30px;
+}
+.skills li{
+    margin: 2%;
+}

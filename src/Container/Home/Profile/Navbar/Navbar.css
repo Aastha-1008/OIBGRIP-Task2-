@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+.Portfolio-Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%; 
+    margin-bottom: 20px;
+
+}
+.Portfolio-name{
+    margin: auto;
+}
+.Portfolio-name h1{
+    font-size: 50px;
+    color: white;
+    font-family: 'Koulen', cursive;
+}
+.Portfolio-functionality {
+    margin: auto;
+}
+.Portfolio-functionality li{
+    display: inline;
+    padding: 25px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    list-style-type: none;
+    font-family: 'Shadows Into Light', cursive;}
+
+@media screen and (max-width: 1110px) {
+    .Portfolio-Navbar{
+        display: flex;
+        flex-direction: row;
+    }
+    .Portfolio-name h1{
+        margin: 20px;
+        font-size: 50px;
+        margin-bottom: 20px;
+        color: white;
+        font-family: 'Koulen', cursive;
+    }
+    .Portfolio-functionality li{
+        font-size: 25px;
+        padding: 15px;
+
+    }
+}
+
+@media screen and (max-width: 910px){
+    .Portfolio-Navbar{
+        display: flex;
+        flex-direction: row;
+    }
+    .Portfolio-name h1{
+        margin: 20px;
+        font-size: 50px;
+        margin-bottom: 20px;
+        color: white;
+        font-family: 'Koulen', cursive;
+    }
+    .Portfolio-functionality li{
+        font-size: 30px;
+        padding: 15px;
+
+    }
+}
+@media screen and (max-width: 810px){
+    .Portfolio-Navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .Portfolio-name h1{
+        margin: 20px;
+        font-size: 50px;
+        margin-bottom: 20px;
+        color: white;
+        font-family: 'Koulen', cursive;
+    }
+    .Portfolio-functionality li{
+        font-size: 18px;
+        padding: 10px;
+
+    }
+}
+
+@media screen and (max-width: 500px){
+    .Portfolio-Navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .Portfolio-name h1{
+        margin: 10px;
+        font-size: 25px;
+        margin-bottom: 20px;
+        color: white;
+        font-family: 'Koulen', cursive;
+    }
+    .Portfolio-functionality li{
+        font-size: 15px;
+        padding: 10px;
+
+    }
+}
+

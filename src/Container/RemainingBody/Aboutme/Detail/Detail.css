@@ -1,0 +1,31 @@
+.Education, .Internship, .Project, .achive, .courses{
+    margin-left: 4%;
+    margin-top: 2%;
+    overflow: scroll;
+    padding-bottom: 10%;
+}
+.Education h1, .Internship h1, .Project h1, .achive h1, .courses h1{
+    color: rgb(13, 17, 59);
+}
+.Education h6, .Internship h6, .Project h6, .achive h6, .courses h6{
+    color: black;
+    font-weight: bold;
+    margin-left: 5%;
+}
+h6 span{
+    margin-left: 3%;
+    font-size:  16px;
+    color: rgb(255, 94, 0);
+    font-weight: bold;
+}
+.Education p, .Internship p, .Project p, .achive p, .courses p {
+    margin-left: 6%;
+    margin-bottom: 3%;
+}
+p span{
+    color: blue;
+}
+.achive li , .courses li{
+    padding: 15px;
+}
+
